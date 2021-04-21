@@ -1,0 +1,37 @@
+{
+  "name": "react-complete-guide",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "1.1.1"
+  },
+  "scripts": {
+    "eslint:fix-03-01": "eslint --fix ./src/**/*.{js,jsx}",
+    "prestart-03-01": "eslint ./src/**/*.{js,jsx}",
+    "start-03-01": "react-scripts start prestart-03-01",
+    "build-03-01": "react-scripts build",
+    "test-03-01": "react-scripts test",
+    "eject-03-01": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

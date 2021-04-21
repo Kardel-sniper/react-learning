@@ -24,3 +24,4 @@ yarn-error.log*
 /tic-tac-toe/node_modules
 /03/01-starting-setup/node_modules
 /03/02-building-a-first-custom-component/node_modules
+/03/03-writing-more-complex-jsx-code/node_modules

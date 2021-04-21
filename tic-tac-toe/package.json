@@ -1,5 +1,5 @@
 {
-  "name": "apps",
+  "name": "tic-tac-toe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +7,37 @@
     "react-dom": "17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "1.1.1"
+  },
+  "scripts": {
+    "eslint:fix tic-tac-toe": "eslint --fix ./src/**/*.{ts,tsx}",
+    "prestart tic-tac-toe": "eslint ./src/**/*.{ts,tsx}",
+    "start tic-tac-toe": "react-scripts start prestart",
+    "build tic-tac-toe": "react-scripts build",
+    "test tic-tac-toe": "react-scripts test",
+    "eject tic-tac-toe": "react-scripts eject"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prestart"
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
     "@testing-library/jest-dom": "5.11.10",

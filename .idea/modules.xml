@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-starting-setup/01-starting-setup.iml" filepath="$PROJECT_DIR$/01-starting-setup/01-starting-setup.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps.iml" filepath="$PROJECT_DIR$/apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tic-tac-toe/tic-tac-toe.iml" filepath="$PROJECT_DIR$/tic-tac-toe/tic-tac-toe.iml" />
     </modules>
   </component>
 </project>

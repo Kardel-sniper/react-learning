@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/03/03-writing-more-complex-jsx-code/03-writing-more-complex-jsx-code.iml" filepath="$PROJECT_DIR$/03/03-writing-more-complex-jsx-code/03-writing-more-complex-jsx-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/03/04-adding-basic-css-styling/04-adding-basic-css-styling.iml" filepath="$PROJECT_DIR$/03/04-adding-basic-css-styling/04-adding-basic-css-styling.iml" />
       <module fileurl="file://$PROJECT_DIR$/03/05-outputting-dynamic-data/05-outputting-dynamic-data.iml" filepath="$PROJECT_DIR$/03/05-outputting-dynamic-data/05-outputting-dynamic-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03/08-splitting-components-into-multiple-components/08-splitting-components-into-multiple-components.iml" filepath="$PROJECT_DIR$/03/08-splitting-components-into-multiple-components/08-splitting-components-into-multiple-components.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps.iml" filepath="$PROJECT_DIR$/apps.iml" />
       <module fileurl="file://$PROJECT_DIR$/tic-tac-toe/tic-tac-toe.iml" filepath="$PROJECT_DIR$/tic-tac-toe/tic-tac-toe.iml" />
     </modules>

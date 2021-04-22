@@ -3,12 +3,21 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/03/01-starting-setup/01-starting-setup.iml" filepath="$PROJECT_DIR$/03/01-starting-setup/01-starting-setup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04/01-working-with-state/01-working-with-state.iml" filepath="$PROJECT_DIR$/04/01-working-with-state/01-working-with-state.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04/02-adding-form-inputs/02-adding-form-inputs.iml" filepath="$PROJECT_DIR$/04/02-adding-form-inputs/02-adding-form-inputs.iml" />
       <module fileurl="file://$PROJECT_DIR$/03/02-building-a-first-custom-component/02-building-a-first-custom-component.iml" filepath="$PROJECT_DIR$/03/02-building-a-first-custom-component/02-building-a-first-custom-component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04/03-working-with-multiple-states/03-working-with-multiple-states.iml" filepath="$PROJECT_DIR$/04/03-working-with-multiple-states/03-working-with-multiple-states.iml" />
       <module fileurl="file://$PROJECT_DIR$/03/03-writing-more-complex-jsx-code/03-writing-more-complex-jsx-code.iml" filepath="$PROJECT_DIR$/03/03-writing-more-complex-jsx-code/03-writing-more-complex-jsx-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/03/04-adding-basic-css-styling/04-adding-basic-css-styling.iml" filepath="$PROJECT_DIR$/03/04-adding-basic-css-styling/04-adding-basic-css-styling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04/04-updating-state-that-depends-on-previous-state/04-updating-state-that-depends-on-previous-state.iml" filepath="$PROJECT_DIR$/04/04-updating-state-that-depends-on-previous-state/04-updating-state-that-depends-on-previous-state.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04/05-handling-form-submission/05-handling-form-submission.iml" filepath="$PROJECT_DIR$/04/05-handling-form-submission/05-handling-form-submission.iml" />
       <module fileurl="file://$PROJECT_DIR$/03/05-outputting-dynamic-data/05-outputting-dynamic-data.iml" filepath="$PROJECT_DIR$/03/05-outputting-dynamic-data/05-outputting-dynamic-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04/06-adding-two-way-binding/06-adding-two-way-binding.iml" filepath="$PROJECT_DIR$/04/06-adding-two-way-binding/06-adding-two-way-binding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04/07-lifting-the-state-up/07-lifting-the-state-up.iml" filepath="$PROJECT_DIR$/04/07-lifting-the-state-up/07-lifting-the-state-up.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04/08-assignment-solution/08-assignment-solution.iml" filepath="$PROJECT_DIR$/04/08-assignment-solution/08-assignment-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/03/08-splitting-components-into-multiple-components/08-splitting-components-into-multiple-components.iml" filepath="$PROJECT_DIR$/03/08-splitting-components-into-multiple-components/08-splitting-components-into-multiple-components.iml" />
       <module fileurl="file://$PROJECT_DIR$/03/09-assignment-1-solution/09-assignment-1-solution.iml" filepath="$PROJECT_DIR$/03/09-assignment-1-solution/09-assignment-1-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04/09-finished/09-finished.iml" filepath="$PROJECT_DIR$/04/09-finished/09-finished.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps.iml" filepath="$PROJECT_DIR$/apps.iml" />
       <module fileurl="file://$PROJECT_DIR$/tic-tac-toe/tic-tac-toe.iml" filepath="$PROJECT_DIR$/tic-tac-toe/tic-tac-toe.iml" />
     </modules>

@@ -12,7 +12,9 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start-05-01": "react-scripts start",
+    "eslint:fix-05-01": "eslint --fix ./src/**/*.{ts,tsx}",
+    "prestart-05-01": "eslint ./src/**/*.{ts,tsx}",
+    "start-05-01": "react-scripts start prestart",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

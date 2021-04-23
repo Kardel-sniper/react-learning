@@ -1,0 +1,61 @@
+{
+  "name": "tic-tac-toe_hooks",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "1.1.1"
+  },
+  "scripts": {
+    "eslint:fix tic-tac-toe_hooks": "eslint --fix ./src/**/*.{ts,tsx}",
+    "prestart tic-tac-toe_hooks": "eslint ./src/**/*.{ts,tsx}",
+    "start tic-tac-toe_hooks": "react-scripts start prestart",
+    "build tic-tac-toe_hooks": "react-scripts build",
+    "test tic-tac-toe_hooks": "react-scripts test",
+    "eject tic-tac-toe_hooks": "react-scripts eject"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prestart"
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "5.11.10",
+    "@testing-library/react": "11.2.6",
+    "@testing-library/user-event": "12.8.3",
+    "@types/jest": "26.0.22",
+    "@types/node": "14.14.41",
+    "@types/react": "17.0.3",
+    "@types/react-dom": "17.0.3",
+    "@typescript-eslint/eslint-plugin": "4.22.0",
+    "@typescript-eslint/parser": "4.22.0",
+    "eslint": "7.24.0",
+    "eslint-config-prettier": "8.2.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-promise": "5.1.0",
+    "eslint-plugin-react": "7.23.2",
+    "husky": "6.0.0",
+    "prettier": "2.2.1",
+    "typescript": "4.2.4"
+  }
+}

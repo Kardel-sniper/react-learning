@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/04/09-finished/09-finished.iml" filepath="$PROJECT_DIR$/04/09-finished/09-finished.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps.iml" filepath="$PROJECT_DIR$/apps.iml" />
       <module fileurl="file://$PROJECT_DIR$/tic-tac-toe/tic-tac-toe.iml" filepath="$PROJECT_DIR$/tic-tac-toe/tic-tac-toe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tic-tac-toe_hooks/tic-tac-toe_hooks.iml" filepath="$PROJECT_DIR$/tic-tac-toe_hooks/tic-tac-toe_hooks.iml" />
     </modules>
   </component>
 </project>

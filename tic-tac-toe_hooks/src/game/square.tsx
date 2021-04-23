@@ -1,4 +1,4 @@
-import React, {Component, ReactNode} from "react";
+import React from "react";
 import {Value} from "./game";
 
 type SquareProps = {
@@ -7,15 +7,8 @@ type SquareProps = {
   handleClick(index: number): void;
 };
 
-export class Square extends Component<SquareProps> {
-  public render(): ReactNode {
-    return (
-      <button
-        className={this.props.value.text ? "square" : "square-empty"}
-        onClick={() => this.props.handleClick(this.props.value.index)}
-      >
-        {this.props.value.text || this.props.value.index + 1}
-      </button>
-    );
-  }
-}
+export const Square: React.FC<SquareProps> = (props: SquareProps) => (
+  <button className={props.value.text ? "square" : "square-empty"} onClick={() => props.handleClick(props.value.index)}>
+    {props.value.text || props.value.index + 1}
+  </button>
+);

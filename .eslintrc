@@ -46,6 +46,8 @@
     "no-useless-return": "error", // Disallow redundant return statements
     "no-lonely-if": "error", // Disallow `if` statements as the only statement in `else` blocks
     "no-unneeded-ternary": "error", // Disallow ternary operators when simpler alternatives exist
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn", // Verifies the list of dependencies for Hooks like useEffect and similar, protecting against the stale closure pitfalls
     "prettier/prettier": [
       "error",
       {

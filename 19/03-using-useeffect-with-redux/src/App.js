@@ -10,7 +10,7 @@ function App() {
   const cart = useSelector((state) => state.cart);
 
   useEffect(() => {
-    fetch('https://react-http-6b4a6.firebaseio.com/cart.json', {
+    fetch('https://react-test-app-2-default-rtdb.europe-west1.firebasedatabase.app/cart.json', {
       method: 'PUT',
       body: JSON.stringify(cart),
     });

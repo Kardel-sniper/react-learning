@@ -2,6 +2,12 @@
   "name": "apps",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build-20-21": "react-scripts 20/21-finished/build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@reduxjs/toolkit": "1.5.1",
     "react": "17.0.2",
